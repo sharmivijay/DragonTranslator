@@ -13,13 +13,6 @@ body{
     color: white;
 }
 
-.container{
-    width: 500px;
-    margin: 0px auto;
-    height: 20vh;
-    
-}
-
 .header{
     background-color: var(--primary-color);
     border-radius: 2rem;
