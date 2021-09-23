@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+
+:root{
+    --primary-color: #374151;
+}
+
+body{
+    font-family: 'Lacquer', cursive;
+    margin: 0px auto;
+    overflow-y: hidden;
+    
+    color: white;
+}
+
+.container{
+    width: 500px;
+    margin: 0px auto;
+    height: 20vh;
+    
+}
+
+.header{
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+}
+
+.header-txt{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: xxx-large;
+    margin: 0px auto;
+}
+
+.container{
+    width: 800px;
+    height: 18vh;
+    margin: auto;
+}
+
+#input-txt{
+    margin: 2rem 7.75rem;
+}
+
+.section{
+    padding: 1.47rem;
+    width: 550px;
+    margin: auto;
+    height: 0.9rem;
+    
+}
+
+.container .section{
+    margin:  2rem 7.75rem;
+    height: 3rem;
+    border: 1px solid white;
+    width: auto;
+}
+
+
+.btn{
+    width: 15rem;
+    padding: 7px;
+    height: 7vh;
+    font-family: 'Gluten', cursive;
+    background-color: var(--primary-color);
+    font-size: large;
+    border-color:whitesmoke;
+    color:white;
+}
+.footer{
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+}
+.footer-txt{
+ text-align: center;
+ padding-top: 3.5rem ;
+}
+
+.background-img::after {
+    content: "";
+    background-image: url(images/dragon.jpg);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    z-index: -1;   
+  }
