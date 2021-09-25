@@ -45,3 +45,4 @@ btnTranslate.addEventListener("click",callHandler);
 
 var translateUrl = "https://api.funtranslations.com/translate/draconic.json";
 
+
