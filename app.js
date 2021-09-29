@@ -43,6 +43,4 @@ function errorHandler(){
 btnTranslate.addEventListener("click",callHandler);
 
 
-var translateUrl = "https://api.funtranslations.com/translate/draconic.json";
-
-
+var translateUrl = "https://api.funtranslations.com/translate/thuum.json";

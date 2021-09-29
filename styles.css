@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 
 :root{
@@ -6,11 +6,14 @@
 }
 
 body{
-    font-family: 'Lacquer', cursive;
+    font-family: 'Architects Daughter', cursive;
     margin: 0px auto;
     overflow-y: hidden;
     width: 100%;
     color: white;
+    background-image: url(images/dragon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header{
@@ -40,20 +43,22 @@ body{
     width: 550px;
     margin: auto;
     height: 0.9rem;
+    font-weight: bold;
     
 }
 
 .container .section{
     margin:  2rem 7.75rem;
     height: 3rem;
-    border: 1px solid white;
+    border: 1px solid black;
     width: auto;
+    background-color: white;
 }
 
 
 .btn{
     width: 15rem;
-    padding: 7px;
+    padding: 0%;
     height: 7vh;
     font-family: 'Gluten', cursive;
     background-color: var(--primary-color);
@@ -62,7 +67,7 @@ body{
     color:white;
 }
 .footer{
-    margin-bottom: 0px;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--primary-color);
@@ -71,17 +76,9 @@ body{
 .footer-txt{
  text-align: center;
  padding-top: 3.5rem ;
+ 
 }
 
-.background-img::after {
-    content: "";
-    background-image: url(images/dragon.jpg);
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    position: absolute;
-    z-index: -1;   
-  }
+.output-txt{
+    color: black;
+}
